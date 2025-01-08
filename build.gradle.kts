@@ -8,7 +8,7 @@ plugins {
     id("org.jetbrains.intellij.platform") version "2.2.1" // IntelliJ Platform Gradle Plugin
     id("org.jetbrains.changelog") version "2.2.1" // Gradle Changelog Plugin
     id("org.jetbrains.qodana") version "2024.3.4" // Gradle Qodana Plugin
-    id("org.jetbrains.kotlinx.kover") version "0.9.0" // Gradle Kover Plugin
+    id("org.jetbrains.kotlinx.kover") version "0.9.1" // Gradle Kover Plugin
 }
 
 group = providers.gradleProperty("pluginGroup").get()
